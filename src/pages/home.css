@@ -1,0 +1,27 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6;
+  }
+  
+  .flag-row {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flag {
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .flag:hover {
+    transform: scale(1.05);
+  }
+  
